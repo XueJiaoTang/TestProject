@@ -93,9 +93,9 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "{NodeId:ns=7;g=b2eb4d0d-2137-8581-a175-883cf49f9fa4}"
+        Value: "Hello"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 200.0
+      Value: 300.0
