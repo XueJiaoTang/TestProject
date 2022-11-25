@@ -82,20 +82,11 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 400.0
-  - Name: Immagine1
-    Type: Image
+  - Name: Etichetta1
+    Type: Label
     Children:
-    - Name: Path
+    - Name: Text
       Type: BaseDataVariableType
-      DataType: ResourceUri
-      Value: "ns=7;%PROJECTDIR%/Capture (1).PNG"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
+      DataType: LocalizedText
       ModellingRule: Optional
-      Value: 50.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
+      Value: {"LocaleId":"it-IT","Text":"Etichetta1"}
